@@ -1,4 +1,4 @@
-# Seting up my client config file
+# Setting up my client config file
 include stdlib
 
 file_line { 'Turn off passwd auth':
@@ -14,4 +14,3 @@ file_line { 'Delare identity file':
   line   => '     IdentityFile ~/.ssh/school',
   replace => true,
 }
-
