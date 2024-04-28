@@ -47,4 +47,8 @@ server-id  =  1
 log_bin  = /var/log/mysql/mysql-bin.log
 
 # name of database to replicate
+<<<<<<< HEAD
 binlog_do_db    = tyrell_corp
+=======
+binlog_do_db    = tyrell_corp
+>>>>>>> 0b84059b007b57f69ef262fb7efdaf900dfb7386
