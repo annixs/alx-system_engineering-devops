@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+Task 0.Where am I?
+=======
 # System engineering & Devops
 
 Module of **System engineering** and **Devops**, carried out during **Full Stack Software Engineering studies** at **[ALX](https://www.alxafrica.com/)**.
@@ -45,3 +48,4 @@ All work contained in this project was completed as part of the curriculum for t
     alt="ALX Africa Logo"
   >
   </p>
+>>>>>>> 0b84059b007b57f69ef262fb7efdaf900dfb7386

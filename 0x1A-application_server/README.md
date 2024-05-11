@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+pplication server
+This was the application deployment project for our AirBnB clone. In this project, I configured Nginx on the web servers provided me by ALX to serve a WSGI Flask app running through Gunicorn. Additionally, I set up an Upstart script to keep the application running on server reboots.
+=======
 # Application server
 
 This was the application deployment project for our AirBnB clone. In this
@@ -46,3 +50,4 @@ Upstart script to keep the application running on server reboots.
 * **7. No service interruption**
   * [4-reload_gunicorn_no_downtime](./4-reload_gunicorn_no_downtime): Bash script that gracefully
   reloads Gunicorn.
+>>>>>>> 0b84059b007b57f69ef262fb7efdaf900dfb7386

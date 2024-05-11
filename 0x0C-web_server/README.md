@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+0x0C-web_server
+=======
 # Web server
 
 In this project, I learned how web servers work and began using one. I was
@@ -65,3 +68,4 @@ The server is accessible at [bdbnb.site](http://bdbnb.site).
     of the remote server.
   * `clean`
     * Deletes the archive `holbertonwebapp.tar.gz` in the local directory.
+>>>>>>> 0b84059b007b57f69ef262fb7efdaf900dfb7386

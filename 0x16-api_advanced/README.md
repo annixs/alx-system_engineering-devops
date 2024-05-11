@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+LX.
+Function Prototypes 💾
+Prototypes for functions written in this project:
+
+File	Prototype
+0-subs.py	def number_of_subscribers(subreddit)
+1-top_ten.py	def top_ten(subreddit)
+2-recurse.py	def recurse(subreddit, hot_list=[])
+100-count.py	def count_words(subreddit, word_list)
+=======
 # API advanced
 
 I continued to practice querying API's in this advanced project, this time
@@ -46,3 +57,4 @@ Prototypes for functions written in this project:
   * Words with no matches are skipped.
   * Results are based on the number of times a keyword appears - ie.,
   `java java java` counts as three separate instances of `java`.
+>>>>>>> 0b84059b007b57f69ef262fb7efdaf900dfb7386

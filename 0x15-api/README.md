@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+pi
+=======
 # API
 
 This project was further practice in working with API's. I collected data from the
@@ -32,3 +35,4 @@ to export it to either CSV or JSON format.
   * Usage: `python3 3-dictionary_of_list_of_dictionaries.py`
   * File name: `todo_all_employees.json`
   * Format: `{ "<user id>": [ {"username": "<username>", "task": "<task title>", "completed": <task completed status>}, {"username": "<username>", "task": "<task title>", "completed": <task completed status>}, ... ], "<user id>": [ {"username": "<username>", "task": "<task title>", "completed": <task completed status>}, {"username": "<username>", "task": "<task title>", "completed": <task completed status>}, ... ]}`
+>>>>>>> 0b84059b007b57f69ef262fb7efdaf900dfb7386

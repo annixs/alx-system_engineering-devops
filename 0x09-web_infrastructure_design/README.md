@@ -1,1 +1,2 @@
-My work which explains the 0x09-web_infrastructure_design alx tasks
+nfrastructure design
+Project done during Full Stack Software Engineering studies at Alx School. It aims to learn about how to design a Web Infrastructure.

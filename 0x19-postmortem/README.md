@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+ process. Kept expectations lower this time... but was rewarded! strace revelead an -1 ENOENT (No such file or directory) error occurring upon an attempt to access the file /var/www/html/wp-includes/class-wp-locale.phpp.
+
+Looked through files in the /var/www/html/ directory one-by-one, using Vim pattern matching to try and locate the erroneous .phpp file extension. Located it in the wp-settings.php file. (Line 137, require_once( ABSPATH . WPINC . '/class-wp-locale.php' );).
+
+Removed the trailing p from the line.
+
+Tested another curl on the server. 200 A-ok!
+
+Wrote a Puppet manifest to automate fixing of the error.
+=======
 # Postmortem
 
 Upon the release of ALX's System Engineering & DevOps project 0x19, approximately 06:00 West African Time (WAT) here in Nigeria, an outage occurred on an isolated Ubuntu 14.04 container running an Apache web server. GET requests on the server led to 500 Internal Server Error's, when the expected response was an HTML file defining a simple Holberton WordPress site.
@@ -59,3 +70,4 @@ replaces any `phpp` extensions in the file `/var/www/html/wp-settings.php` with 
 
 But of course, it will never occur again, because we're programmers, and we never make
 errors! :wink:
+>>>>>>> 0b84059b007b57f69ef262fb7efdaf900dfb7386

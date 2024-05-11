@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+
+_ssl
+=======
 # HTTPS SSL
 
 In this project, I learned about the importance of HTTPS and how it works. I
@@ -24,3 +28,4 @@ SSL termination.
 * **3. No loophole in your website traffic**
   * [100-redirect_http_to_https](./100-redirect_http_to_https): HAproxy
   configuration file that automatically redirects HTTP traffic to HTTPS.
+>>>>>>> 0b84059b007b57f69ef262fb7efdaf900dfb7386

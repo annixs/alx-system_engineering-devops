@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+ql
+=======
 # Mysql
 
 This project involved learning how to configure database servers in a
@@ -20,3 +23,4 @@ database server on the database `tyrell_corp`.
   * Usage: `./5-mysql_backup <MySQL root password>`
   * Generates a dump containing all MySQL databases on the root server.
   * Names the resulting tar archive in the format `day-month-year.tar.gz`.
+>>>>>>> 0b84059b007b57f69ef262fb7efdaf900dfb7386
