@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 tack monitoring
 This project invovled setting up Sumo Logic accounts to monitor server traffic on my three HBnB servers.
 
@@ -11,6 +10,3 @@ Second line: Access Key
 1. Monitor your server
 
 For this task, I configured Sumo Logic to monitor my server's memory, CPU, network and disk.
-=======
-# Webstack monitoring
->>>>>>> 0b84059b007b57f69ef262fb7efdaf900dfb7386

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # add stable version of nginx
 exec { 'add nginx stable repo':
   command => 'sudo add-apt-repository ppa:nginx/stable',
@@ -77,11 +76,4 @@ exec { 'restart service':
 service { 'nginx':
   ensure  => running,
   require => Package['nginx'],
-=======
-# Installs a Nginx server
-
-exec {'install':
-  provider => shell,
-  command  => 'sudo apt-get -y update ; sudo apt-get -y install nginx ; echo "Hello World!" | sudo tee /var/www/html/index.nginx-debian.html ; sudo sed -i "s/server_name _;/server_name _;\n\trewrite ^\/redirect_me https:\/\/github.com\/Tolulope05 permanent;/" /etc/nginx/sites-available/default ; sudo service nginx start',
->>>>>>> 0b84059b007b57f69ef262fb7efdaf900dfb7386
 }
